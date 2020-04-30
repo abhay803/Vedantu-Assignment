@@ -1,0 +1,49 @@
+.profile-img {
+    width: 100%;
+    border-radius: 6px;
+}
+
+.name-container span{
+    display: block;
+}
+
+.name-container .fullname {
+    font-size: 26px;
+    line-height: 30px;
+}
+
+.name-container .login-name {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px;
+    color: #666;
+}
+
+.profile .btn {
+    max-width: 100%;
+    width: 272px;
+}
+
+.profile .details {
+    display: block;
+    list-style: none;
+}
+
+.profile .details li {
+    margin: 10px 0;
+}
+
+.profile .details .svg-color{
+    vertical-align: middle;
+}
+
+.profile .details li span{
+    margin-left: 10px;
+    color: #24292e;
+    font-size: 14px;
+}
+
+.profile > div {
+    margin: 15px 0;
+}

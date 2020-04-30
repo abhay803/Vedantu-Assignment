@@ -1,0 +1,25 @@
+/* Css Code for RepoTray */
+.search {
+    padding: 16px 0;
+    border-top: 1px solid #e1e4e8!important;
+    border-bottom: 1px solid #e1e4e8!important;
+}
+
+.search .bar {
+    float: left;
+    width: 65%;
+    margin-right: 10px;
+}
+
+.search .bar input {
+    padding: 6px 8px;
+    border: 1px solid #d1d5da;
+    border-radius: 3px;
+    width: 100%;
+    font-size: 14px;
+}
+
+.search .search-drop {
+    float: right;
+    width: 30%;
+}

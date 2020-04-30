@@ -1,0 +1,32 @@
+/* Css code for TabBar component */
+.profile-nav {
+    padding: 10px 0;
+}
+
+.profile-nav a {
+    padding: 16px 8px;
+    margin-right: 16px;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #586069;
+    text-align: center;
+    white-space: nowrap;
+    background-color: initial;
+    border: 0;
+    border-bottom: 2px solid transparent;
+    text-decoration: none;
+}
+
+.profile-nav a:hover, .profile-nav .a:focus {
+    color: #24292e;
+    text-decoration: none;
+    border-bottom-color: #d1d5da;
+    transition: .2s ease;
+}
+
+.profile-nav a:visited {
+    color: #24292e;
+    text-decoration: none;
+    border-bottom-color: ##e36209;
+    transition: .2s ease;
+}
