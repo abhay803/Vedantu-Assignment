@@ -59,17 +59,40 @@
     outline: none;
 }
 
+.btn-sm {
+    padding: 3px 10px;
+    font-size: 12px;
+    line-height: 20px;
+}
+
 select {
     padding: 6px;
     color: #24292e;
     background-color: #eff3f6;
     background-image: linear-gradient(-180deg,#fafbfc,#eff3f6 90%);
-    font-size: 14px;
-    font-weight: 600;
-    line-height: 20px;
     white-space: nowrap;
     vertical-align: middle;
     outline: none;
+}
+
+.mt-1 {
+    margin-top: 10px;
+}
+
+.mr-1 {
+    margin-right: 10px;
+}
+
+.mb-1 {
+    margin-bottom: 10px;
+}
+
+.ml-1 {
+    margin-left: 10px;
+}
+
+.ta-r {
+    text-align: right;
 }
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {

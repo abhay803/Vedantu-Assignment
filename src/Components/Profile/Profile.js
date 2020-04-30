@@ -19,7 +19,6 @@ class Profile extends React.Component {
 
         request.addEventListener('readystatechange', function() {
         if (this.readyState === 4) {
-            console.log(this);
             that.setState({
                 profile: JSON.parse(this.responseText) || {}
             });

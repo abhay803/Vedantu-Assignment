@@ -47,3 +47,17 @@
 .profile > div {
     margin: 15px 0;
 }
+
+@media screen and (max-width: 600px) {
+    .profile {
+        padding: 0 10px;
+    }
+
+    .profile .btn {
+        width: 100%;
+    }
+
+    .profile-nav {
+        display: none;
+    }
+}

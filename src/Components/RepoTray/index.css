@@ -1,5 +1,6 @@
 /* Css Code for RepoTray */
 .search {
+    width: 100%;
     padding: 16px 0;
     border-top: 1px solid #e1e4e8!important;
     border-bottom: 1px solid #e1e4e8!important;
@@ -22,4 +23,65 @@
 .search .search-drop {
     float: right;
     width: 30%;
+}
+
+.search .search-drop select{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.search .repo-tray {
+    margin: 10px 0;
+}
+
+.col-lg-9 {
+    width: 75%;
+}
+
+.col-lg-3 {
+    width: 25%;
+}
+
+.repo-tray {
+    width: 100%;
+}
+
+.repo-tray ul li {
+    padding: 24px 0;
+    display: block;
+    min-height: 50px;
+}
+
+.repo-tray ul li h3{
+    color: #0366d6;
+    font-size: 20px;
+    margin: 5px 0;
+}
+
+.repo-tray ul li .desc{
+    font-size: 14px;
+}
+
+.repo-tray .grey-content span{
+    margin-right: 10px;
+    color: #586069!important;
+    font-size: 12px;
+}
+
+@media screen and (max-width: 600px) {
+    .search .bar {
+        clear: both;
+        padding: 10px;
+    }
+
+    .search .search-drop {
+        padding: 10px;
+        float: left;
+        width: auto;
+    }
+
+    .repo-tray ul li {
+        padding: 24px 10px;
+    }
 }
